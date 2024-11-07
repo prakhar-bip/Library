@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Library</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body{
+        background: beige;
+      }
+      footer{
+        margin-top: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Study">Study</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Add_Books"
+                >Add Books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="View_Books">View Books</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Manage_Users" role="button" aria-expanded="false">
+                Manage Users
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Manage_books" role="button" aria-expanded="false">
+                Manage Books
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h2 class="text-center mt-5 pe-none mb-5">Dashboard</h2>
+    <div class="container border border-primary d-flex justify-content-center align-items-center bg-dark text-white" style="min-height: 15vh; width: 15vw;">
+      <div class="text-center">
+        <p>Total Books: 1000</p>
+        <p>Total Members: 200</p>
+        <p>Books Issued Today: 5</p>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>Contact us at <a href="mailto:Study@library.com" class="text-white">study@library.com</a></p>
+        <p>&copy; 2024 Library Admin</p>
+      </div>
+    </footer>
+  </body>
+</html>
